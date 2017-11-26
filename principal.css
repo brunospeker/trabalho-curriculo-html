@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+    color:white;
+    margin: 20px;
+    font-family: helvetica;
+}
+
+div{
+    background-color: darkturquoise;
+    margin-top: 50px auto;
+}
+
+/*                                                  lado direito*/
+
+div#right{
+    float: right;
+    background: none;
+    width: 30%;
+}
+
+div#r1{
+    text-align: center;
+    padding: 50px;
+    border-style: none;
+    border-radius: 20px;
+}
+
+
+div#r1 a, div#r1 h2{
+    position: relative;
+    padding-top: 20px;
+    display: none;
+}
+
+div#r1:hover a{
+    padding-top: 2px;
+    display: block;
+    display: inline;
+}
+
+
+div#r2{
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    top: 50px; 
+    transition: padding 2s;
+    border-style: none;
+    border-radius: 20px;
+}
+
+div#r2 a{
+    display: block;
+}
+
+div#r2 h3, div#r2 li, div#li1, div#li2, div#li3, div#li4, div#li5{
+    position: relative;
+    display: none;
+    transition: width 3s;
+}
+
+div#r2 li{
+    text-align: left;
+}
+
+div#li1, div#li2, div#li3, div#li4, div#li5{
+    position: relative;
+    width: 10px;
+    height: 15px;
+    background: white;
+    display: inline;
+}
+
+div#r2:hover h3, div#r2:hover li{
+    display: block;
+    padding: 2px;
+}
+
+div#r2:hover div#li1{
+    display: block;
+    width: 70%;
+}
+div#r2:hover div#li2{
+    display: block;
+    width: 80%;
+}
+div#r2:hover div#li3{
+    display: block;
+    width: 90%;
+}
+div#r2:hover div#li4{
+    display: block;
+    width: 70%;
+}
+div#r2:hover div#li5{
+    display: block;
+    width: 100%;
+}
+
+
+/*                                                      lado esquerdo*/
+
+div#left{
+    float: left;
+    background: none;
+    width: 65%;
+}
+
+
+div#l1{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    text-align: right;
+    border-style: none;
+    border-radius: 20px;
+    padding-right: 20px;
+}
+
+div#l2{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    margin-top: 50px;
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+div#l2 ul{
+    display:none;
+}
+
+div#l2:hover ul{
+    display: block;
+}
+
+div#l3{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    margin-top: 50px;
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+div#l3 ul{
+    display:none;
+}
+
+div#l3:hover ul{
+    display: block;
+}
+
+div#l4{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    margin-top: 50px;
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+div#l4 ul{
+    display:none;
+}
+
+div#l4:hover ul{
+    display: block;
+}

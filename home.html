@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Trabalho de Desenvolvimento Web</title>
+        <meta http-equiv="content-language" content="pt-br">
+        <meta name="description" content="Currículo do Antonio Bruno">
+        <meta name="keywords" content="trabalho, desenvolvimento, web, currículo">
+        <meta name="author" content="Bruno Santiago">
+        <meta name="robots" content="noindex,nofollow">
+        <link id="css1" rel="stylesheet" href="principal.css">
+        <script src="script.js" type="text/javascript">
+            
+        </script>
+        <style>
+            
+            form#l5{
+                background-color: darkturquoise;
+                border: none;
+                position: absolute;
+                bottom: 50px;
+                color: white;
+                padding: 15px 15px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                border-radius: 200px 200px 200px 200px;
+            }
+            
+            input{display: none}
+            
+            #escuro + label{
+                border-radius: 100px 0px 0px 100px;
+                padding: 5px 15px;
+                font-size: 15px;
+            }
+            
+            #claro + label{
+                border-radius: 0px 100px 100px 0px;
+                padding: 5px 15px;
+                font-size: 15px;
+            }
+            
+            #escuro:checked + label{
+                border-radius: 100px 0px 0px 100px;
+                background: black;
+                color: white;
+            }
+            
+            #claro:checked + label{
+                border-radius: 0px 100px 100px 0px;
+                background: white;
+                color: black;
+            }
+        </style>
+    </head>
+    <body id="Bo">
+        <div id="left">
+        <div id="l1">
+        <h1>Antonio Bruno Santiago</h1>
+        <h4>Webdesigner</h4>        
+        <p>Sou um profissional bastante criativo. Detenho para mim uma alta capacidade de aprendizado e gosto de adquirir novos conhecimentos.</p>
+        </div>
+
+        
+            
+        <div id="l2">
+        <h2>Educação</h2>
+            <ul>Designer Grafico - Full Sail University - 2010 ~ 2014</ul>
+            <ul>Sistemas de Informação - UVA - 2017 ~ Atualmente</ul>
+        </div>
+            
+        <div id="l3">
+        <h2>Experiência</h2>
+            <ul>After Effects - 6 meses</ul>
+            <ul>Sony Vegas - 6 meses</ul>
+            <ul>Maya 3D - 6 meses</ul>
+            <ul>Premiere - 3 meses</ul>
+            <ul>Photoshop - 6 meses</ul>
+        </div>
+        
+        <div id="l4">
+        <h2>Contato</h2>
+            <ul>Telefone: +191 3535 6280</ul>
+            <ul>Email: bruno.speker@github.com</ul>
+            <ul>Site: (Você está aqui) </ul>
+            <ul>Endereço: Copacabana - RJ</ul>
+        </div>
+            
+            <form id="l5">
+            <input type="radio" onclick="document.getElementById('Bo').style.backgroundColor='black'" id="escuro" name="color" value="black" checked="checked">
+            <label for="escuro">DESATIVADO</label>
+            <input type="radio" onchange="document.getElementById('Bo').style.backgroundColor='white'" id="claro" name="color" value="white">
+            <label for="claro">ATIVADO</label>
+            </form>
+            
+        </div>
+        
+        
+        <div id="right">
+        <div id="r1">
+        <h2>Perfil</h2>
+            <img id="perfil" src="imagens/userw.png" alt="Foto de perfil" title="Bruno" width="300px auto" height="300px auto"><br><br><br>
+                <a href="https://twitter.com/" target="_blank"><img src="imagens/imagesw/twitter.png" alt="logoTwitter" title="Twitter" width="58px" height="50px"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="imagens/imagesw/facebook.png" alt="logoFacebook" title="Facebook" width="55px" height="50px"></a>
+                <a href="https://www.linkedin.com/?trk=nav_logo" target="_blank"><img src="imagens/imagesw/linkedin.png" alt="logoLinkedIn" title="LinkedIn" width="55px" height="50px"></a>
+                <a href="https://www.skype.com/pt-br/new/" target="_blank"><img src="imagens/imagesw/Skype.png" alt="logoSkype" title="Skype" width="60px" height="50px"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="imagens/imagesw/youtube.png" alt="logoYoutube" title="Youtube" width="55px" height="50px"></a>
+        </div>
+        
+        
+        <div id="r2">
+        <h2>Habilidades</h2>
+            <h3>Habilidades Pessoais</h3>
+            <li>Trabalho em equipe</li><div id="li1"></div>
+            <li>Criatividade</li><div id="li2"></div>
+            <li>Organização</li><div id="li3"></div>
+            <li>Comunicação</li><div id="li4"></div>
+            <li>Responsabilidade</li><div id="li5"></div>
+
+        </div>
+        </div>
+
+    </body>
+</html>
